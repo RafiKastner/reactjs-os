@@ -1,0 +1,24 @@
+{
+  "name": "reactjs-os",
+  "version": "1.0.0",
+  "description": "React MacOS inspired components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafiKastner/reactjs-os.git"
+  },
+  "keywords": [
+    "React",
+    "MacOS",
+    "OS"
+  ],
+  "author": "Rafi Kastner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RafiKastner/reactjs-os/issues"
+  },
+  "homepage": "https://github.com/RafiKastner/reactjs-os#readme"
+}
