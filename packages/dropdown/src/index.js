@@ -1,3 +1,4 @@
 module.exports = {
-    ...require('./dropdown')
+    ...require('./dropdown'),
+    ...require('./context'),
 }

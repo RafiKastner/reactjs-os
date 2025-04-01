@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "MacOS inspired React components",
   "workspaces": [
-    "packages/*",
-    "shared"
+    "packages/*"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,5 +26,10 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3"
   }
 }

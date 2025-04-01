@@ -1,6 +1,6 @@
 import React, { Children, cloneElement, isValidElement, useContext, useEffect, useRef, useState } from 'react'
 import "./index.css"
-import { Arrow } from '../../../shared/components/arrow'
+import { Arrow } from '@reactjs-os/shared'
 import { DropdownContext } from './context'
 
 export function Dropdown({ inner, offset, children }) {
