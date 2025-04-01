@@ -1,8 +1,11 @@
 {
   "name": "reactjs-os",
   "version": "1.0.0",
-  "description": "React MacOS inspired components",
-  "main": "index.js",
+  "description": "MacOS inspired React components",
+  "workspaces": [
+    "packages/*",
+    "shared"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/RafiKastner/reactjs-os/issues"
   },
-  "homepage": "https://github.com/RafiKastner/reactjs-os#readme"
+  "homepage": "https://github.com/RafiKastner/reactjs-os#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
 }

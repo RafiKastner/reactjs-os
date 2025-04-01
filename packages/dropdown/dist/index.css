@@ -1,0 +1,75 @@
+.dropdown {
+    --right-color: #aeaeae;
+
+    position: relative;
+
+    hr {
+        border-width: .5px;
+        border-color: var(--right-color);
+    }
+
+    .dropdown-children {
+        position: absolute;
+        top: calc(100% + 4px);
+        left: 4px;
+        border: solid gray .5px;
+        border-radius: 6px;
+        background: linear-gradient(135deg, #302c3c, #1e1d24);
+        background-clip: border-box;
+        -webkit-background-clip: border-box;
+        width: fit-content;
+        padding: .4rem 1rem;
+        margin: 0;
+    }
+    
+    .dropdown-item {
+        width: 100%;
+        min-width: max-content;
+        box-sizing: border-box;
+        padding: 0.3rem;
+        margin: 0;
+        background-color: transparent;
+        color: var(--right-color);
+        font-size: 1.3rem;
+        font-weight: 500;
+        .shortcut-name {
+            color: var(--text-color);
+            margin-right: 2.4rem;
+        }
+        kbd {
+            font-family: inherit;
+        }
+        kbd:nth-last-child(n + 2){
+            margin-right: 0.4rem;
+        }
+    }
+    .dropdown-item:hover {
+        color: var(--text-color);
+        background-color: var(--selection-color);
+    }
+
+    .sub-dropdown {
+        width: 100%;
+        border-radius: inherit;
+        background-color: transparent;
+        .control-button {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            >div {
+                padding: 0.3rem;
+                font-size: 1.3rem;
+            }
+            svg {
+                stroke: var(--right-color);
+            }
+        }
+        .control-button:hover {
+            color: var(--text-color);
+            background-color: var(--selection-color);
+            svg {
+                stroke: var(--text-color)
+            }
+        }
+    }
+}
